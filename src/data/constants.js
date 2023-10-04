@@ -5,7 +5,7 @@ export const Bio = {
     "Hey there! 👋 I'm Ben, a motivated and flexible person who enjoys taking on new challenges. I'm dedicated to achieving excellent results and have a strong passion for learning. With a positive attitude and a mindset focused on growth, I'm ready to contribute meaningfully and achieve great things.",
   github: "https://github.com/bjmczhang",
   resume:
-    "https://drive.google.com/file/d/1Hrwh0KUGg-WdFPH26lMGqv1xAwqwTjuF/view?usp=sharing",
+    "https://drive.google.com/file/d/1FvSbyDvGry6XMXx6ZLTAP4qEU4TmG3mw/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/benjamin-zhang-965359262/",
   blog: "https://bjmzhang.vercel.app/",
   email: "mailto:bjmzhang@gmail.com",
