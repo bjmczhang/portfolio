@@ -8,7 +8,7 @@ export const Bio = {
     "https://drive.google.com/file/d/1FvSbyDvGry6XMXx6ZLTAP4qEU4TmG3mw/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/benjamin-zhang-965359262/",
   blog: "https://bjmzhang.vercel.app/",
-  email: "mailto:bjmzhang@gmail.com",
+  email: "mailto:bjmczhang@gmail.com",
 };
 
 export const skills = [
