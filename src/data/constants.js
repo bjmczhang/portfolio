@@ -125,7 +125,7 @@ export const skills = [
       {
         name: "Shopify",
         image:
-          "https://assets.stickpng.com/images/58482ec0cef1014c0b5e4a70.png",
+          "https://freelogopng.com/images/all_img/1655837490shopify-png-logo.png",
       },
       {
         name: "Wordpress",
