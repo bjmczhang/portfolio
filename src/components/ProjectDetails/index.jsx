@@ -2,6 +2,7 @@ import { CloseRounded, GitHub, LinkedIn } from "@mui/icons-material";
 import { Modal } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
+import ReactVideoPlayer from "../ReactVideoPlayer";
 
 const Container = styled.div`
   width: 100%;
@@ -205,11 +206,19 @@ const index = ({ openModal, setOpenModal }) => {
             }}
             onClick={() => setOpenModal({ state: false, project: null })}
           />
+
+          <div>
+            {project.videos?.map((video, index) => (
+              <ReactVideoPlayer key={index} videoUrl={video} />
+            ))}
+          </div>
+
           <div>
             {project.images?.map((image, index) => (
               <Image src={image} />
             ))}
           </div>
+
           <Title>{project?.title}</Title>
           <Date>{project.date}</Date>
           <Tags>

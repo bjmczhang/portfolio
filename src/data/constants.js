@@ -148,20 +148,6 @@ export const skills = [
 
 export const experiences = [
   {
-    id: 16,
-    title: "Aucoko Website",
-    description:
-      "www.aucoko.com.au | Aucoko is a startup dairy and health products company based in Sydney. They need to update their website with a simple, elegant, and international design, along with integrating a Shopify e-commerce system. I designed and built the website for them.",
-    images: [
-      "https://i.imgur.com/N510tl3.png",
-      "https://i.imgur.com/EOcVxQ2.png",
-      "https://i.imgur.com/TRZW4BL.png",
-    ],
-    tags: ["Web Development", "UI Design", "Web Design", "Shopify"],
-    category: "web development",
-    webapp: "http://www.aucoko.com.au",
-  },
-  {
     id: 0,
     img: "https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/v1497608054/v6pqkwvwvl5ixnz0y4h3.png",
     role: "Graphic Designer & Web Developer",
@@ -226,6 +212,32 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 16,
+    title: "Aucoko Packaging Design",
+    description:
+      "www.aucoko.com.au | Aucoko is a startup dairy and health products company based in Sydney. They need to update their website with a simple, elegant, and international design, along with integrating a Shopify e-commerce system. I designed and built the website for them.",
+    images: ["https://i.imgur.com/9QxzsJJ.jpg"],
+    videos: ["assets/videos/aucoko.mp4"],
+    tags: ["Packaging Design", "3D Modelling", "Animation"],
+    category: ["3d", "packaging"],
+    webapp: "http://www.aucoko.com.au",
+  },
+  {
+    id: 16,
+    title: "Aucoko Website",
+    description:
+      "www.aucoko.com.au | Aucoko is a startup dairy and health products company based in Sydney. They need to update their website with a simple, elegant, and international design, along with integrating a Shopify e-commerce system. I designed and built the website for them.",
+    images: [
+      "https://i.imgur.com/N510tl3.png",
+      "https://i.imgur.com/EOcVxQ2.png",
+      "https://i.imgur.com/TRZW4BL.png",
+    ],
+
+    tags: ["Web Development", "UI Design", "Web Design", "Shopify"],
+    category: "web development",
+    webapp: "http://www.aucoko.com.au",
+  },
   {
     id: 15,
     title: "Dry Rain Films Logo Design",

@@ -66,6 +66,16 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           )}
           <Divider />
+          {toggle === "3D" ? (
+            <ToggleButton active value="3d" onClick={() => setToggle("3d")}>
+              3D
+            </ToggleButton>
+          ) : (
+            <ToggleButton value="3d" onClick={() => setToggle("3d")}>
+              3D
+            </ToggleButton>
+          )}
+          <Divider />
           {toggle === "web design" ? (
             <ToggleButton
               active
@@ -110,7 +120,7 @@ const Projects = ({ openModal, setOpenModal }) => {
               />
             ))}
           {projects
-            .filter((item) => item.category == toggle)
+            .filter((item) => item.category.includes(toggle))
             .map((project) => (
               <ProjectCard
                 project={project}
